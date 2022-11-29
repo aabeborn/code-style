@@ -1,0 +1,19 @@
+{
+  "name": "@aabeborn/prettier-config",
+  "version": "1.0.0",
+  "description": "aabeborn's prettier configuration",
+  "main": "index.json",
+  "files": [ "index.json" ],
+  "scripts": {
+    "lint": "echo \"LINTING\" && exit 1"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "author": "aabeborn",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
