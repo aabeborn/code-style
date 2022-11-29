@@ -1,4 +1,4 @@
 {
-    "root": true,
-    "extends": ["@aabeborn"] 
+	"root": true,
+	"extends": ["@aabeborn"]
 }
