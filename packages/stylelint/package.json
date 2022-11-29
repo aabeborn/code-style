@@ -1,19 +1,21 @@
 {
-  "name": "@aabeborn/stylelint-config",
-  "version": "1.0.0",
-  "description": "aabeborn's stylelint configuration",
-  "main": "index.js",
-  "files": [ "index.js" ],
-  "scripts": {
-    "lint": "echo \"LINTING\" && exit 1"
-  },
-  "keywords": [
-    "stylelint",
-    "stylelint-config"
-  ],
-  "author": "aabeborn",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  }
+	"name": "@aabeborn/stylelint-config",
+	"version": "1.0.0",
+	"description": "aabeborn's stylelint configuration",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"lint": "echo \"LINTING\" && exit 1"
+	},
+	"keywords": [
+		"stylelint",
+		"stylelint-config"
+	],
+	"author": "aabeborn",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	}
 }

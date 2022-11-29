@@ -1,19 +1,21 @@
 {
-  "name": "@aabeborn/eslint-config",
-  "version": "1.0.0",
-  "description": "aabeborn's eslint configuration",
-  "main": "index.js",
-  "files": [ "index.js" ],
-  "scripts": {
-    "lint": "echo \"LINTING\" && exit 1"
-  },
-  "keywords": [
-    "eslint",
-    "eslint-config"
-  ],
-  "author": "aabeborn",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  }
+	"name": "@aabeborn/eslint-config",
+	"version": "1.0.0",
+	"description": "aabeborn's eslint configuration",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"lint": "echo \"LINTING\" && exit 1"
+	},
+	"keywords": [
+		"eslint",
+		"eslint-config"
+	],
+	"author": "aabeborn",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	}
 }

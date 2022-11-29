@@ -1,23 +1,24 @@
 {
-  "name": "code-style",
-  "version": "0.0.0",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "prettier": "@aabeborn/prettier-config",
-  "scripts": {
-    "lint": "turbo run lint"
-  },
-  "devDependencies": {
-    "@aabeborn/eslint-config": "workspace:*",
-    "@aabeborn/stylelint-config": "workspace:*",
-    "@aabeborn/prettier-config": "workspace:*",
-    "turbo": "latest"
-  },
-  "engines": {
-    "node": ">=16.0.0"
-  },
-  "dependencies": {},
-  "packageManager": "pnpm@7.13.5"
+	"name": "code-style",
+	"version": "0.0.0",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"prettier": "@aabeborn/prettier-config",
+	"scripts": {
+		"lint": "turbo run lint",
+		"prettier": "prettier -w ."
+	},
+	"devDependencies": {
+		"@aabeborn/eslint-config": "workspace:*",
+		"@aabeborn/prettier-config": "workspace:*",
+		"@aabeborn/stylelint-config": "workspace:*",
+		"prettier": "^2.8.0",
+		"turbo": "latest"
+	},
+	"engines": {
+		"node": ">=16.0.0"
+	},
+	"packageManager": "pnpm@7.13.5"
 }
