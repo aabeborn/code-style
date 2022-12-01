@@ -3,7 +3,8 @@ export default {
         './problems',
         './suggestions',
         './styling',
-        'prttier'
+
+        'prettier'
     ],
     plugins: [
         'prettier',
@@ -12,5 +13,10 @@ export default {
     parserOptions: {
         ecmaVersion: 2018,
         sourceType: 'module'
+    },
+    rules: {
+        "prettier/prettier": "error",
+        "arrow-body-style": "off",
+        "prefer-arrow-callback": "off"
     }
 }
