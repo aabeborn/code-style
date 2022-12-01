@@ -3,7 +3,7 @@ export default {
         './problems',
         './suggestions',
         './styling',
-
+        './import.js',
         'prettier'
     ],
     plugins: [
