@@ -9,14 +9,22 @@
 	"scripts": {
 		"prepare": "husky install",
 		"lint": "eslint . --fix",
-		"prettier": "prettier -w .",
-		"precommit": "pnpm run prettier && pnpm run lint"
+		"prettier": "prettier -w ."
+	},
+	"lint-staged": {
+		"**/*.{js,json}": [
+			"pnpm run prettier"
+		],
+		"**/*.{js}": [
+			"pnpm run lint"
+		]
 	},
 	"devDependencies": {
 		"@aabeborn/eslint-config": "workspace:*",
 		"@aabeborn/prettier-config": "workspace:*",
 		"@aabeborn/stylelint-config": "workspace:*",
 		"husky": "^8.0.2",
+		"lint-staged": "^13.0.4",
 		"prettier": "^2.8.0",
 		"turbo": "latest"
 	},
