@@ -7,13 +7,16 @@
 	],
 	"prettier": "@aabeborn/prettier-config",
 	"scripts": {
-		"lint": "eslint .",
-		"prettier": "prettier -w ."
+		"prepare": "husky install",
+		"lint": "eslint . --fix",
+		"prettier": "prettier -w .",
+		"precommit": "pnpm run prettier && pnpm run lint"
 	},
 	"devDependencies": {
 		"@aabeborn/eslint-config": "workspace:*",
 		"@aabeborn/prettier-config": "workspace:*",
 		"@aabeborn/stylelint-config": "workspace:*",
+		"husky": "^8.0.2",
 		"prettier": "^2.8.0",
 		"turbo": "latest"
 	},
