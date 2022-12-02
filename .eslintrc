@@ -1,4 +1,9 @@
 {
 	"root": true,
-	"extends": ["@aabeborn"]
+	"extends": ["@aabeborn"],
+	"env": {
+		"es6": true,
+		"node": true
+	},
+	"plugins": ["prettier"]
 }
