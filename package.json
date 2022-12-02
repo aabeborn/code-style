@@ -7,7 +7,7 @@
 	],
 	"prettier": "@aabeborn/prettier-config",
 	"scripts": {
-		"lint": "turbo run lint",
+		"lint": "eslint .",
 		"prettier": "prettier -w ."
 	},
 	"devDependencies": {
