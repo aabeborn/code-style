@@ -4,7 +4,7 @@ module.export = {
 		// Enforce linebreaks after opening and before closing array brackets
 		'array-bracket-newline': [1, 'consistent'],
 		// Enforce consistent spacing inside array brackets
-		'array-bracket-spacing': [1, 'never', { singleValue: true }],
+		'array-bracket-spacing': [1, 'always', { singleValue: true }],
 		// Enforce line breaks after each array element
 		'array-element-newline': 0,
 		// Require parenthesis around arrow function arguments
@@ -142,7 +142,7 @@ module.export = {
 		'object-property-newline': [
 			2,
 			{
-				allowAllPropertiesOnSameLine: true,
+				allowAllPropertiesOnSameLine: false,
 			},
 		],
 		// Enforce consistent linebreak style for operators
